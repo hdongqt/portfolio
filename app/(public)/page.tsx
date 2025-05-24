@@ -50,7 +50,7 @@ export default function Home() {
         <div className='max-w-7xl flex mx-auto flex-wrap'>
           <div className='w-full lg:w-3/5 relative z-10 flex max-w-7xl mx-auto justify-center text-white px-6 gap-10'>
             <Card className='w-full dark:bg-gradient-to-r from-gray-900 py-0 to-black rounded-2xl flex flex-col lg:flex-row items-stretch gap-10'>
-              <div className='flex-1 py-12 pl-6'>
+              <div className='flex-1 py-12 px-6'>
                 <div className='font-bold'>
                   <span className='text-red-500 animated-color-text text-3xl md:text-5xl'> Dong Dev.</span>
                   <FlipSentences
@@ -99,7 +99,7 @@ export default function Home() {
                 <CornerJumpAnimation skillIcons={skillIcons} />
               </div>
             </div>
-            <div className='w-full lg:w-2/4 flex flex-col gap-y-4 justify-between'>
+            <div className='w-full lg:w-2/4 flex flex-col gap-y-4 justify-between z-20 relative'>
               <div className='p-4 h-40 border rounded-lg'>
                 <div className='flex w-full h-full overflow-hidden rounded'>
                   <div
