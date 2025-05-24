@@ -1,11 +1,9 @@
 'use client'
 import Link from 'next/link'
 
-import { RoleType } from '@/types/jwt.types'
 import { cx } from 'class-variance-authority'
 import { usePathname } from 'next/navigation'
 import Logo from '@/components/logo'
-import FluidCursor from '@/components/layout/fluid-cursor'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 import { Menu } from 'lucide-react'
@@ -15,8 +13,6 @@ import { useEffect, useState } from 'react'
 const menuItems: {
   title: string
   href: string
-  role?: RoleType[]
-  hideWhenLogin?: boolean
 }[] = [
   {
     title: 'About',
