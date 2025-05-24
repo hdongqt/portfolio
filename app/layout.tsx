@@ -20,7 +20,14 @@ const fontMono = FontMono({
 
 export const metadata: Metadata = {
   title: 'Hoàng Hữu Đồng | Dong Dev',
-  description: 'Dong Dev'
+  description: 'Dong Dev',
+  openGraph: {
+    title: 'Đồng Dev',
+    description: 'Khám phá các dự án của Đồng',
+    images: ['https://dongdev-wine.vercel.app/images/show.png'],
+    url: 'https://dongdev-wine.vercel.app/',
+    type: 'website'
+  }
 }
 
 export default function RootLayout({
