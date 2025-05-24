@@ -24,7 +24,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Đồng Dev',
     description: 'Khám phá các dự án của Đồng',
-    images: ['https://dongdev-wine.vercel.app/images/show.png'],
+    images: [
+      {
+        url: 'https://dongdev-wine.vercel.app/images/show.png',
+        width: 1200,
+        height: 630,
+        alt: 'Dong Dev'
+      }
+    ],
     url: 'https://dongdev-wine.vercel.app/',
     type: 'website'
   }

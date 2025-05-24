@@ -134,7 +134,7 @@ export default function Home() {
               <div className='p-4 border rounded-lg flex items-center justify-between z-20'>
                 <span>My CV</span>
                 <div className='flex gap-4 items-center'>
-                  <a href='/public/pdf/CV_Hoang_Huu_Dong_Frontend.pdf' download='CV_Hoang_Huu_Dong_Frontend.pdf'>
+                  <a href='/pdf/CV_Hoang_Huu_Dong_Frontend.pdf' download='CV_Hoang_Huu_Dong_Frontend.pdf'>
                     <Download className='hover:text-green-500 transition' />
                   </a>
                 </div>
