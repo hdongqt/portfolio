@@ -24,6 +24,7 @@ import Command from '@/components/ui/command'
 import { FlipSentences } from '@/components/ui/flip-sentences'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import { accordionActivities } from '@/data/info'
+import ImageStory from '@/components/layout/image-story'
 
 const skillIcons = [
   { key: 'javascript', name: 'JavaScript', icon: javascriptIcon },
@@ -52,7 +53,7 @@ export default function Home() {
             <Card className='w-full dark:bg-gradient-to-r from-gray-900 py-0 to-black rounded-2xl flex flex-col lg:flex-row items-stretch gap-10'>
               <div className='flex-1 py-12 px-6'>
                 <div className='font-bold'>
-                  <span className='text-red-500 animated-color-text text-3xl md:text-5xl'> Dong Dev.</span>
+                  <span className='text-red-500 text-gradient-animate text-3xl md:text-5xl'> Dong Dev.</span>
                   <FlipSentences
                     className='mt-2 text-lg'
                     sentences={[
@@ -176,7 +177,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='max-w-7xl mx-auto px-6 py-20 relative z-2' id='activities'>
+      <section className='max-w-7xl mx-auto px-6 pt-20 relative z-2' id='activities'>
         <p className='text-2xl mb-2'>Activity:</p>
         <Accordion type='single' collapsible className='w-full'>
           {accordionActivities.map(({ value, trigger, contents }) => (
@@ -188,6 +189,10 @@ export default function Home() {
             </AccordionItem>
           ))}
         </Accordion>
+      </section>
+      <section className='max-w-7xl mx-auto px-6 py-20 relative z-2'>
+        <p className='text-4xl uppercase mb-6 text-center text-gradient-animate'>Photo Stories</p>
+        <ImageStory />
       </section>
     </div>
   )
