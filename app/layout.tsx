@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   title: 'Hoàng Hữu Đồng | Dong Dev',
   description: 'Dong Dev',
   keywords: ['Dong Dev', 'Hoàng Hữu Đồng', 'Dong Dev Portfolio', 'Hữu Đồng', 'Dong Wine', 'Hoàng Hữu Đồng Portfolio'],
+  verification: {
+    google: '8AMUM_GmhT7uAQ0cJcYiptoDGBL4Y9JNXWZbPxuzC-8'
+  },
   openGraph: {
     title: 'Đồng Dev',
     description: 'Khám phá các dự án của Đồng',
