@@ -21,6 +21,7 @@ const fontMono = FontMono({
 export const metadata: Metadata = {
   title: 'Hoàng Hữu Đồng | Dong Dev',
   description: 'Dong Dev',
+  keywords: ['Dong Dev', 'Hoàng Hữu Đồng', 'Dong Dev Portfolio', 'Hữu Đồng', 'Dong Wine', 'Hoàng Hữu Đồng Portfolio'],
   openGraph: {
     title: 'Đồng Dev',
     description: 'Khám phá các dự án của Đồng',

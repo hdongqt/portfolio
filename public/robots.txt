@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://dongdev-wine.vercel.app
+
+# Sitemaps
+Sitemap: https://dongdev-wine.vercel.app/sitemap.xml
